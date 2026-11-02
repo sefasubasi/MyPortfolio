@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyPortfolio.DAL.Contex;
+using MyPortfolio.DAL.Context;
 
 namespace MyPortfolio.ViewComponents
 {

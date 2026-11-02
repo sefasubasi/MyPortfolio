@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MyPortfolio.DAL.Entities;
 
-namespace MyPortfolio.DAL.Contex
+namespace MyPortfolio.DAL.Context
 {
     public class MyPortofolioContext:DbContext
     {
@@ -19,6 +19,7 @@ namespace MyPortfolio.DAL.Contex
         public DbSet<Skill> Skills { get; set; }
         public DbSet<SocialMedia> SocialMedias { get; set; }
         public DbSet<Testimonial> Testimonials { get; set; }
+        public DbSet<ToDoList> ToDoLists { get; set; }
 
     }
 }
